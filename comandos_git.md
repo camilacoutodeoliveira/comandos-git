@@ -14,8 +14,7 @@ git commit -m 'seu comentário sobre seus arquivos aqui'
 git commit -am 'digite sua mensagem aqui'
 ## Ligando seu repositório local a sua nuvem
 git remote add origin link_para_o_repositório_do_seu_projeto
-## Enviando suas alterações
-Pela primeira vez:
+## Enviando suas alterações. Pela primeira vez:
 git push -u origin master
 ## Nas próximas vezes basta
 git push
@@ -30,8 +29,7 @@ git checkout nome_do_branch
 git push origin nome_do_branch
 ## Unindo branches
 git merge nome_do_branch
-## Atualizando seu repositório local
-Pega as modificações que foram feitas no repositório remoto.
+## Atualizando seu repositório local. Pega as modificações que foram feitas no repositório remoto.
 git pull
 ## Desfazendo commits
 git revert chave_do_commit
